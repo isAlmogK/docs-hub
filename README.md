@@ -18,7 +18,7 @@ Click on Console in the top-right corner of the droplet’s page. This opens a c
 
 You are now connected to your droplet.
 
-## 2. Navigate to the Fider Directory
+## 2. Navigate to the Dochub Directory
 Once connected, navigate to the directory where Fider is set up. This is typically located in /root/doc-hub  .
 ```bash
 cd /root/doc-hub
@@ -33,7 +33,7 @@ docker compose pull
 ```
 Note: This command only downloads the latest image but doesn’t restart the application yet.
 
-## 4. Restart Fider with the New Image
+## 4. Restart Dochub with the New Image
 After pulling the updated image, restart Dochub to apply the changes. This command will update and start the container in the background:
 
 ```bash
